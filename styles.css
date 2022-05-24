@@ -42,13 +42,12 @@ a {
 .navegacion {
     display: flex;
     justify-content: space-between;
-    height: 19rem;
     background-color: var(--nav);
     box-shadow: 0 4px 18px 0 rgba(0,0,0,.2);
-    padding: 0 8rem 20rem;
+    padding: 0 8rem;
 }
 .logo {
-    width: 14rem;
+    width: 17rem;
     height: 20rem;
     display: flex;
     flex-direction: column;
@@ -56,24 +55,24 @@ a {
     align-items: center;
 }
 .logo__img {
-    width: 10rem;
+    width: 9rem;
     margin-bottom: -30px;
 }
 .logo__p {
-    font-size: 3.4rem;
+    font-size: 3rem;
     font-family: 'fredoka-one', sans-serif;
     color: var(--titulo);
     font-weight: bold;
     -webkit-text-stroke: 0.8px black;
     margin: 0;
-    line-height: 3.2rem;
+    line-height: 3rem;
 }
 .nav {
-    width: 60rem;
-    height: 20rem;
+    width: 50rem;
+    height: 13rem;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
 }
 .nav__a {
     font-family: 'fredoka-one', sans-serif;
@@ -83,7 +82,7 @@ a {
     border-radius: 3rem;
     border: 1px solid var(--marron);
     -webkit-text-stroke: 0.6px var(--marron);
-    font-size: 3.6rem;
+    font-size: 3rem;
     font-weight: 600;
     text-decoration: none;
     transition: all 0.3s ease 0s;
@@ -101,9 +100,10 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 6rem;
+    gap: 2rem;
 }
 .main__img_source {
-    width: 95%;
+    width: 70rem;
     opacity: 0.8;
     border-radius: 1rem;
 }
@@ -111,8 +111,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 44rem;
-    width: 78rem;
+    height: 40rem;
+    width: 74rem;
     background-color: rgba(36, 25, 19, 0.2);
     padding: 2rem;
     border-radius: 2rem;
@@ -122,16 +122,16 @@ a {
     color: var(--blanco);
     -webkit-text-stroke: 0.6px var(--marron);
     text-shadow: 3px 5px 10px rgba(0,0,0,0.7);
-    font-size: 5.4rem;
+    font-size: 4.8rem;
     margin: 0;
 }
 .main__p--bold {
     text-transform: uppercase;
-    font-size: 5.6rem;
+    font-size: 5rem;
 }
 .space {
     margin-top: 2rem;
-    font-size: 5.2rem;
+    font-size: 4.6rem;
 }
 
 .extras {
@@ -149,7 +149,7 @@ a {
     box-shadow: 0px 0px 44px -6px rgba(0,0,0,0.67);
 }
 .armar-oso__t {
-    font-size: 4.6rem;
+    font-size: 4rem;
     color: var(--titulo);
     -webkit-text-stroke: 0.4px var(--marron-oscuro);
     margin: 0;
@@ -166,17 +166,17 @@ a {
     border: none;
 }
 .form__t {
-    font-size: 3.4rem;
+    font-size: 3rem;
     text-align: center;
     color: var(--titulo);
     -webkit-text-stroke: 0.2px var(--marron-oscuro);
     margin: 0;
-    margin: 1.6rem 0;
+    margin: 1rem 0;
 }
 .form__select {
     font-family: 'fredoka', sans-serif;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.6rem;
     border-radius: 2rem;
     padding: 0.4rem 0;
     margin-bottom: 3rem;
@@ -185,7 +185,7 @@ a {
 
 .form__label {
     color: var(--marron-oscuro);
-    font-size: 2.4rem;
+    font-size: 1.9rem;
     font-weight: 100;
     margin-bottom: 1rem;
 
@@ -194,11 +194,12 @@ a {
     margin-bottom: 3rem;
 }
 .form__checkbox {
-    transform: scale(1.8)
+    transform: scale(1.4)
 }
 .form__btn {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-family: 'fredoka', sans-serif;
+    font-weight: bold;
     padding: 1rem 3rem;
     background-color: var(--marron-claro);
     border: 1px solid var(--marron);
@@ -210,6 +211,7 @@ a {
 }
 .form__btn:hover {
     background-color: var(--body);
+    color: var(--marron-oscuro);
     box-shadow: 0px 10px 14px var(--marron);
     transform: translateY(-7px);
 }
@@ -223,7 +225,7 @@ a {
     margin-bottom: 10rem;
 }
 .contacto {
-    height: 60rem;
+    height: 50rem;
     background-color: var(--blanco);
     display: flex;
     justify-content: center;
@@ -232,7 +234,6 @@ a {
     border-radius: 2rem;
 }
 .contacto__img {
-    width: 100%;
     height: 100%;
     object-fit: contain;
     border-radius: 2rem 0 0 2rem;
@@ -255,15 +256,16 @@ a {
 }
 .campo__field {
     font-family: sans-serif;
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     flex: 2;
     border: none;
     padding: 2.4rem 4rem;
     border-bottom: 1px solid var(--gris);
 }
 .campo__btn {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-family: 'fredoka', sans-serif;
+    font-weight: bold;
     padding: 1rem 3rem;
     background-color: var(--marron-claro);
     border: 1px solid var(--marron);
@@ -275,6 +277,7 @@ a {
 }
 .campo__btn:hover {
     background-color: var(--body);
+    color: var(--marron-oscuro);
     box-shadow: 0px 6px 14px var(--marron);
     transform: translateY(-7px);
 }
@@ -296,7 +299,7 @@ a {
     cursor: pointer;
 }
 .footer__logo-img {
-    height: 10rem;
+    height: 8rem;
     margin-right: -1.6rem;
 
 }
@@ -308,20 +311,20 @@ a {
     justify-content: flex-end;
 }
 .footer__logo-text--p {
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-family: 'fredoka-one', sans-serif;
     color: var(--titulo);
     font-weight: bold;
     -webkit-text-stroke: 0.8px black;
     margin: 0;
-    line-height: 3.2rem;
+    line-height: 2.8rem;
 }
 .footer__info {
     display: flex;
     flex-direction: column;
 }
 .footer__info--p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: sans-serif;
     color: var(--blanco);
     text-align: center;
@@ -331,6 +334,6 @@ a {
     gap: 2rem;
 }
 .footer__redes--img {
-    width: 5rem;
+    width: 4rem;
     cursor: pointer;
 }

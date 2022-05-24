@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cariñositos OnDemand</title>
+</head>
+<body>
+    <nav class="navegacion">
+        <a class="logo" href="index.html">
+            <img class="logo__img" src="/img/teddy-bear-png-28.png" alt="">
+            <p class="logo__p">
+                Cariñositos
+            </p>
+            <p class="logo__p">
+                OnDemand
+            </p>
+        </a>
+        <div class="nav">
+            <a class="nav__a" href="#armar-oso">Creá tu propio oso</a>
+            <a class="nav__a" href="#contacto">Contacto</a>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="main__img">
+            <img class="main__img_source" src="/img/teddy-bears.jpg" alt="">
+        </div>
+        <div class="main__text">
+            <p class="main__p">
+                En <span class="main__p--bold">Cariñositos OnDemand</span>
+            </p>
+            <p class="main__p">
+                ofrecemos una experiencia unica para los chicos y grandes del hogar.
+            </p>
+            <p class="main__p space">
+                Creá tu propio oso para regalar o regalarte
+            </p>
+        </div>
+    </main>
+    <article>
+        <section id="armar-oso" class="armar-oso">
+            <h2 class="armar-oso__t">Armá tu osito ideal</h2>
+            <div class="form">
+                <h3 class="form__t">Color</h3>
+                <label for="color"></label>
+                <select class="form__select" name="color" id="color">
+                    <option disabled selected value="seleccionar">-- Seleccionar --</option>
+                    <option value="marrón">Marrón</option>
+                    <option value="negro">Negro</option>
+                    <option value="rosa">Rosa</option>
+                    <option value="celeste">Celeste</option>
+                  </select>
+            </div>
+            <div class="form">
+                <h3 class="form__t">Ojos</h3>
+                <label for="ojos"></label>
+                <select class="form__select" name="ojos" id="ojos">
+                    <option disabled selected value="seleccionar">-- Seleccionar --</option>
+                    <option value="chicos">Chicos</option>
+                    <option value="medianos">Medianos</option>
+                    <option value="grandes">Grandes</option>
+                </select>
+            </div>
+            <div class="form">
+                <h3 class="form__t">Moño</h3>
+                <label for="moño"></label>
+                <select class="form__select" name="moño" id="moño">
+                    <option disabled selected value="seleccionar">-- Seleccionar --</option>
+                    <option value="rojo">Rojo</option>
+                    <option value="verde">Verde</option>
+                    <option value="azul">Azul</option>
+                </select>
+            </div>
+            <div class="form">
+                <h3 class="form__t">Extras</h3>
+                <label class="form__label" for="caja">
+                    Caja
+                    <input class="form__checkbox" type="checkbox" name="caja" id="caja">
+                </label>
+            </div>
+            <div class="form">
+                <label class="form__label" for="papel">
+                    Papel regalo
+                    <input class="form__checkbox" type="checkbox" name="papel" id="papel">
+                </label>
+            </div>
+            <div class="form">
+                <label class="form__label" for="tarjeta">
+                    Tarjeta personalizada
+                    <input class="form__checkbox" type="checkbox" name="tarjeta" id="tarjeta">
+                </label>
+            </div>
+            <div class="form">
+                <label class="form__label" for=""></label>
+                <input class="form__btn" type="submit" value="Continuar" name="" id="">
+            </div>
+            </div>
+        </section> <!-- armar-oso -->
+
+        <section id="contacto" class="contacto-contenedor">
+            <form class="contacto">
+                <img class="contacto__img" src="/img/teddy-background.jpg" alt="">
+                <div class="contacto__form">
+                    <div class="campo__t">
+                        <h1>Contactanos</h1>
+                    </div>
+                    <div class="campo">
+                        <label for="nombre"></label>
+                        <input class="campo__field" type="text" name="nombre" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="correo"></label>
+                        <input class="campo__field" type="email" name="correo" id="correo" placeholder="Correo">
+                    </div>
+                    <div class="campo">
+                        <label for="msj"></label>
+                        <textarea class="campo__field" name="msj" id="msj" placeholder="Mensaje"></textarea>
+                    </div>
+                    <div class="campo">
+                        <label for="enviar"></label>
+                        <input class="campo__btn" type="submit" name="enviar" id="enviar">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </article>
+
+    <footer class="footer">
+        <a class="footer__logo" href="index.html">
+            <img class="footer__logo-img" src="/img/teddy-bear-png-28.png" alt="">
+            <div class="footer__logo-text">
+                <p class="footer__logo-text--p">
+                    Cariñositos
+                </p>
+                <p class="footer__logo-text--p">
+                    OnDemand
+                </p>
+            </div>
+        </a>
+        <div class="footer__info">
+            <p class="footer__info--p">Calle Falsa 1234, Buenos Aires, Argentina</p>
+            <p class="footer__info--p">© Copyright 2022 - Leonel Paez - cariñositos@ondemand.com</p>
+        </div>
+        <div class="footer__redes">
+            <img class="footer__redes--img" src="/img/wpp.png" alt="">
+            <img class="footer__redes--img" src="/img/ig.png" alt="">
+            <img class="footer__redes--img" src="/img/twitter.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>
